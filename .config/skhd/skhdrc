@@ -3,12 +3,14 @@ alt - f         : yabai -m window --toggle zoom-fullscreen
 shift + alt - f : yabai -m window --toggle native-fullscreen
 
 # cycle windows
-alt - i         : yabai -m window --focus next || yabai -m window --focus first
-alt - k         : yabai -m window --focus prev || yabai -m window --focus last
+alt - w         : yabai -m window --focus next || yabai -m window --focus first
+alt - a         : yabai -m window --focus next || yabai -m window --focus first
+alt - s         : yabai -m window --focus prev || yabai -m window --focus last
+alt - d         : yabai -m window --focus prev || yabai -m window --focus last
 
-# cycle spaces
-alt - j         : yabai -m space --focus prev || yabai -m space --focus first
-alt - l         : yabai -m space --focus next || yabai -m space --focus first
+# cycle spaces (requires spi disbaled)
+#alt - j         : yabai -m space --focus prev || yabai -m space --focus first
+#alt - l         : yabai -m space --focus next || yabai -m space --focus first
 
 # ################################################################ #
 # THE FOLLOWING IS AN EXPLANATION OF THE GRAMMAR THAT SKHD PARSES. #
