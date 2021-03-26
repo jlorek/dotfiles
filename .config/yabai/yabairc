@@ -60,5 +60,8 @@ yabai -m rule --add label="Dozer" app="^Dozer$" manage=off
 yabai -m rule --add label="Keychain Access" app="^Keychain Access$" manage=off
 yabai -m rule --add label="Alfred" app="^Alfred Preferences$" manage=off
 yabai -m rule --add label="Postgres.App" app="^Postgres$" manage=off
+yabai -m rule --add label="Spotify" app="^Spotify$" manage=off
+# yabai -m rule --add app='^GIMP' title!='(^GNU|GIMP$)' manage=off
+yabai -m rule --add label="Gimp" app='^GIMP' manage=off
 
 echo "yabai configuration loaded.."
