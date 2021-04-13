@@ -63,5 +63,6 @@ yabai -m rule --add label="Postgres.App" app="^Postgres$" manage=off
 yabai -m rule --add label="Spotify" app="^Spotify$" manage=off
 # yabai -m rule --add app='^GIMP' title!='(^GNU|GIMP$)' manage=off
 yabai -m rule --add label="Gimp" app='^GIMP' manage=off
+yabai -m rule --add label="Outlook" app='^Microsoft Outlook$' title!="^(Calendar|Inbox)" manage=off
 
 echo "yabai configuration loaded.."
